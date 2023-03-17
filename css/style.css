@@ -1,0 +1,59 @@
+body {
+    background-color: #303030;
+    background-image: url(../assets/backgrounds/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.603);
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#links ul{
+    display: flex;
+}
+
+#links ul li {
+    padding: 0 20px;
+    list-style: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    
+}
+
+#logo {
+    position: relative;
+}
+
+#logo img {
+    height: 100px;
+    position: absolute;
+}
